@@ -1,14 +1,26 @@
-
 {
   "name": "scientific-socialism-ai-chatbot",
-  "version": "1.0.0",
-  "description": "An AI-powered chatbot designed to answer questions and provide detailed explanations about Scientific Socialism in Vietnamese.",
   "private": true,
+  "version": "1.0.0",
+  "type": "module",
   "scripts": {
-    "dev": "echo 'This project runs directly in the browser. Open index.html in a live server.'",
-    "build": "echo 'No build step required for this static setup.'",
-    "start": "echo 'This is a static project. Serve the files from a web server.'"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
-  "author": "AI Assistant",
-  "license": "UNLICENSED"
+  "dependencies": {
+    "@google/genai": "^1.28.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0"
+  }
 }
