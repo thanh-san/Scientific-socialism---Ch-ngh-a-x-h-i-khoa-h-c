@@ -1,11 +1,18 @@
-<div align="center">
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+# Scientific Socialism AI Chatbot
 
-  <h1>Built with AI Studio</h2>
+An AI-powered chatbot designed to answer questions and provide detailed explanations about Scientific Socialism in Vietnamese, leveraging the Google Gemini API.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Deployment
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+This project is set up as a static web application and can be deployed to any static hosting provider like Vercel, Netlify, or GitHub Pages.
 
-</div>
+### Vercel Deployment
+
+1.  Push the code to a Git repository (e.g., GitHub, GitLab).
+2.  Import the project into Vercel. Vercel will automatically detect it as a static site. No special build commands are needed.
+3.  **Crucially**, you must set an Environment Variable in your Vercel project settings:
+    -   **Name**: `API_KEY`
+    -   **Value**: `[Your Google Gemini API Key]`
+
+The application will not work without this environment variable.

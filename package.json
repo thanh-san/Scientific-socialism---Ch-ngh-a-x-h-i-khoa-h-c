@@ -1,0 +1,14 @@
+
+{
+  "name": "scientific-socialism-ai-chatbot",
+  "version": "1.0.0",
+  "description": "An AI-powered chatbot designed to answer questions and provide detailed explanations about Scientific Socialism in Vietnamese.",
+  "private": true,
+  "scripts": {
+    "dev": "echo 'This project runs directly in the browser. Open index.html in a live server.'",
+    "build": "echo 'No build step required for this static setup.'",
+    "start": "echo 'This is a static project. Serve the files from a web server.'"
+  },
+  "author": "AI Assistant",
+  "license": "UNLICENSED"
+}
